@@ -20,9 +20,15 @@ the Virtual env "env" is used in ths Repo. Use `pip -r requirements.txt` to inst
 if not install:
  
  ```
+pip3 install virtualenv
 pip install spidev
 pip install mfrc522
  ```
+
+source the activate file to switch to the venv 
+```
+source env/bin/activate
+```
 
 
 
