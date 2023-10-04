@@ -2,6 +2,7 @@ import RPi.GPIO as GPIO
 import time
 from readToken import read_rfid_card
 
+
 # GPIO-Pinnummern für Zeilen und Spalten
 row_pins = [2, 3, 4, 17, 27]  # 5 Zeilen
 col_pins = [5, 6,13, 19, 26, 21, 20, 16, 12, 25]  # 10 Spalten
@@ -29,7 +30,7 @@ if __name__ == "__main__":
                 for col in range(len(col_pins)):
                     # Spalte aktivieren (HIGH), um die LED einzuschalten
                     GPIO.output(col_pins[col], GPIO.HIGH)
-                    time.sleep(0.1)  # Kurze Pause, um die LED anzuzünden
+                    #time.sleep(0.1)  # Kurze Pause, um die LED anzuzünden
 
                     # Use Imported file to read CardID
                     card_id = read_rfid_card()
