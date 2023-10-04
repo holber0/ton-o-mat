@@ -1,6 +1,6 @@
 import RPi.GPIO as GPIO
 import time
-from src.readToken import read_rfid_card
+from readToken import read_rfid_card
 
 # GPIO-Pinnummern für Zeilen und Spalten
 row_pins = [2, 3, 4, 17, 27]  # 5 Zeilen
