@@ -3,8 +3,8 @@ import time
 from src.readToken import read_rfid_card
 
 # GPIO-Pinnummern für Zeilen und Spalten
-row_pins = [2, 3,]  # 5 Zeilen
-col_pins = [5, 6,]  # 10 Spalten
+row_pins = [2, 3, 4, 17, 27]  # 5 Zeilen
+col_pins = [5, 6,13, 19, 26, 21, 20, 16, 12, 25]  # 10 Spalten
 
 # GPIO-Modus festlegen
 GPIO.setmode(GPIO.BCM)
