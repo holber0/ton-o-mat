@@ -37,7 +37,7 @@ if __name__ == "__main__":
                 for col in range(len(col_pins)):
                     # Spalte aktivieren (HIGH), um die LED einzuschalten
                     GPIO.output(col_pins[col], GPIO.HIGH)
-                    time.sleep(0.1)  # Kurze Pause, um die LED anzuzünden
+                    #time.sleep(0.1)  # Kurze Pause, um die LED anzuzünden
 
                     # Use Imported file to read CardID
                     card_id = read_rfid_card()
