@@ -1,29 +1,50 @@
-from readToken import read_rfid_card
-import time
 import RPi.GPIO as GPIO
+import time
+from src.readToken import read_rfid_card
 
-READER1_GPIO = 5  # Wählen Sie einen verfügbaren GPIO-Pin für Lesegerät 1
-READER2_GPIO = 6  # Wählen Sie einen verfügbaren GPIO-Pin für Lesegerät 2
+# GPIO-Pinnummern für Zeilen und Spalten
+row_pins = [2, 3,]  # 5 Zeilen
+col_pins = [5, 6,]  # 10 Spalten
 
-GPIO.cleanup()
+# GPIO-Modus festlegen
+GPIO.setmode(GPIO.BCM)
+
+# Init: GPIO-Pins als Ausgänge für Zeilen und Spalten konfigurieren
+for pin in row_pins:
+    GPIO.setup(pin, GPIO.OUT)
+    GPIO.output(pin, GPIO.LOW)
+
+for pin in col_pins:
+    GPIO.setup(pin, GPIO.OUT)
+    GPIO.output(pin, GPIO.LOW)
 
 
-def switchGPIO():
-    GPIO.setmode(GPIO.BCM)
-    GPIO.setup(READER1_GPIO, GPIO.OUT)
-    GPIO.setup(READER2_GPIO, GPIO.OUT)
-    if GPIO.input(READER1_GPIO) == GPIO.HIGH:
-        GPIO.output(READER1_GPIO, GPIO.LOW)
-        GPIO.output(READER2_GPIO, GPIO.HIGH)
-    else:
-        GPIO.output(READER1_GPIO, GPIO.HIGH) 
-        GPIO.output(READER2_GPIO, GPIO.LOW)
-        
 if __name__ == "__main__":
-    while True:
-        card_id = read_rfid_card()
-        if card_id: 
-            print("ID des gelesenen RFID-Chips:", card_id)
-        switchGPIO()
-        time.sleep(0.5)
-    # Führen Sie hier weitere Aktionen mit der card_id durch
+    try:
+        while True:
+            for row in range(len(row_pins)):
+                # Zeile aktivieren (HIGH)
+                GPIO.output(row_pins[row], GPIO.HIGH)
+
+                for col in range(len(col_pins)):
+                    # Spalte aktivieren (HIGH), um die LED einzuschalten
+                    GPIO.output(col_pins[col], GPIO.HIGH)
+                    time.sleep(0.1)  # Kurze Pause, um die LED anzuzünden
+
+                    # Use Imported file to read CardID
+                    card_id = read_rfid_card()
+                    if card_id:
+                        print("ID des gelesenen RFID-Chips:", card_id,
+                              " in Row", row, " and in Collum", col)
+
+                    # Spalte deaktivieren (LOW), um die LED auszuschalten
+                    GPIO.output(col_pins[col], GPIO.LOW)
+
+                # Zeile deaktivieren (LOW)
+                GPIO.output(row_pins[row], GPIO.LOW)
+
+    except KeyboardInterrupt:
+        pass
+
+    # Aufräumen und GPIO-Pins freigeben
+    GPIO.cleanup()

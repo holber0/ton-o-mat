@@ -1,5 +1,6 @@
-import RPi.GPIO as GPIO
+# import RPi.GPIO as GPIO
 from mfrc522 import SimpleMFRC522
+
 
 def read_rfid_card():
 
@@ -12,8 +13,9 @@ def read_rfid_card():
         return id
     except KeyboardInterrupt:
         pass
-    finally:
-        GPIO.cleanup()
+#    finally:
+#        GPIO.cleanup()
+
 
 if __name__ == "__main__":
     card_id = read_rfid_card()

@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+#custom trash files
+
+dummy.py
 # C extensions
 *.so
 
