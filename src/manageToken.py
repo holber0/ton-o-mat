@@ -3,6 +3,9 @@ import time
 import json
 from readToken import read_rfid_card
 from pydub import AudioSegment
+from pydub.playback import play
+
+
 
 DEBUG = True  # Set this to False when you want to disable debug output
 
@@ -24,6 +27,7 @@ MasterKeys = config['CardIDs']['masterKeys']
 
 
 
+
 def dprint(*args):
     if DEBUG:
         print(f"DEBUG:", *args)
@@ -33,7 +37,13 @@ def setuptones():
     dprint("MasterKey read:", card_id)
 
 def playSound(BaseLength, row):
-    dprint(card_id, "in SoundMatrix", BaseLength, row)
+    dprint(card_id, "in SoundMatrix", BaseLength, row, "play song")
+    song = AudioSegment.from_mp3(config['GPIORowToMP3'][str(row)])
+    if song:
+        dprint("SongLoaded")
+    play(song[:BaseLength])
+    
+
     #song = AudioSegment.from_mp3(sound)
 
     
@@ -76,11 +86,12 @@ if __name__ == "__main__":
                     time.sleep(0.1)
                     card_id = read_rfid_card()
                     # Kurze Pause um die CardID zu lesen
-                    
                     if card_id:
-                        CheckCardIDs(card_id)
                         dprint("ID des gelesenen RFID-Chips:", card_id,
-                          " in Row", row, " and in Collum", col)                    
+                          " in Row", row, " and in Collum", col)     
+                        
+                        CheckCardIDs(card_id)
+                                       
                       
                     
 

@@ -14,6 +14,13 @@ dtoverlay=spi-bcm2708
 \
 use `sudo raspi-config` to Enable „Advanced Options“ > „SPI“ restart afterwards `sudo reboot now`
 
+## FFMPEG
+ffmpeg is needed to play and modify sound.
+
+```
+sudo apt-get install ffmpeg
+```
+
 ## Pyton Settings
 \
 the Virtual env "env" is used in ths Repo. Use `pip -r requirements.txt` to install all requirements\
