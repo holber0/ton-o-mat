@@ -1,4 +1,6 @@
 configparser==6.0.0
 mfrc522==0.0.7
+pydub==0.25.1
+python-dotenv==1.0.0
 RPi.GPIO==0.7.1
 spidev==3.6

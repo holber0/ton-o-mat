@@ -2,6 +2,7 @@ import RPi.GPIO as GPIO
 import time
 import json
 from readToken import read_rfid_card
+from pydub import AudioSegment
 
 DEBUG = True  # Set this to False when you want to disable debug output
 
@@ -13,9 +14,14 @@ with open('config.json', 'r') as json_file:
 
 row_pins = config['GPIOMatrix']['row_pins']
 col_pins = config['GPIOMatrix']['col_pins']
-TonA = config['CardIDs']['TonA']
-TonB = config['CardIDs']['TonB']
+
+BaseLength = config['SoundSetup']['BaseLength']
+Ton2 = config['CardIDs']['Ton2']
+Ton4 = config['CardIDs']['Ton4']
+Ton8 = config['CardIDs']['Ton4']
+Ton16 = config['CardIDs']['Ton16']
 MasterKeys = config['CardIDs']['masterKeys']
+
 
 
 def dprint(*args):
@@ -26,14 +32,23 @@ def dprint(*args):
 def setuptones():
     dprint("MasterKey read:", card_id)
 
-def SoundMatrix():
-    dprint("in SoundMatrix")
+def playSound(BaseLength, row):
+    dprint(card_id, "in SoundMatrix", BaseLength, row)
+    #song = AudioSegment.from_mp3(sound)
+
+    
 
 def CheckCardIDs(card_id):
     if card_id in MasterKeys:
         setuptones()
-        
-                            
+    if card_id in Ton2:
+        playSound(BaseLength/2, row)
+    if card_id in Ton4:
+        playSound(BaseLength/4, row)
+    if card_id in Ton8:
+        playSound(BaseLength/8, row)
+    if card_id in Ton16:
+        playSound(BaseLength/16, row)
 
 
 # GPIO-Modus festlegen
@@ -59,10 +74,11 @@ if __name__ == "__main__":
                     # Spalte aktivieren (HIGH), um die LED einzuschalten
                     GPIO.output(col_pins[col], GPIO.HIGH)
                     time.sleep(0.1)
-                    card_id = read_rfid_card()# Kurze Pause um die CardID zu lesen
-                    CheckCardIDs(card_id)
-
+                    card_id = read_rfid_card()
+                    # Kurze Pause um die CardID zu lesen
+                    
                     if card_id:
+                        CheckCardIDs(card_id)
                         dprint("ID des gelesenen RFID-Chips:", card_id,
                           " in Row", row, " and in Collum", col)                    
                       

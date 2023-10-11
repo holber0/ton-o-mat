@@ -4,8 +4,20 @@
         "col_pins": [5, 6, 13, 19, 26, 21, 20, 16, 12, 25]
     },
     "CardIDs": {
-        "TonA": [401087982695],
-        "TonB": [401087982696],
+        "Ton2": [401087982695],
+        "Ton4": [401087982696],
+        "TonB": [401087982697],
+        "Ton16": [401087982698],
         "masterKeys": [44608684042]
+    },
+    "SoundSetup":{
+        "BaseLength": 1000
+    },
+    "MP3Files": {
+        "oct-e": "assets/oct-e.mp3",
+        "oct-g": "assets/oct-g.mp3",
+        "oct-b": "assets/oct-b.mp3",
+        "oct-d": "assets/oct-d.mp3",
+        "oct-f": "assets/oct-f.mp3"
     }
 }
