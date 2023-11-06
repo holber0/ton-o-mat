@@ -83,14 +83,14 @@ if __name__ == "__main__":
                 for row in range(len(row_pins)):
                     # Spalte aktivieren (HIGH), um die LED einzuschalten
                     GPIO.output(row_pins[row], GPIO.HIGH)
-                    #time.sleep(0.1)
+                    time.sleep(0.1)
                     card_id = read_rfid_card()
                     # Kurze Pause um die CardID zu lesen
                     if card_id:
                         dprint("ID des gelesenen RFID-Chips:", card_id,
                           " in Row", row, " and in Collum", col)     
                         
-                        CheckCardIDs(card_id)
+                        #CheckCardIDs(card_id)
                                        
                       
                     
