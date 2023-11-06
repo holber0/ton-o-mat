@@ -55,7 +55,7 @@ def PlaySound(Tone,Length):
 
     #subprocess.call(command)
     process = subprocess.Popen(command)
-    playback_duration = Length/1000 + 0.4
+    playback_duration = Length/1000 + 0.6
     time.sleep(playback_duration)
     process.terminate()
 

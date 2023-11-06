@@ -77,14 +77,13 @@ if __name__ == "__main__":
 
     try:
         while True:
-            for row in range(len(row_pins)):
+            for col in range(len(col_pins)):
                 # Zeile aktivieren (HIGH)
-                GPIO.output(row_pins[row], GPIO.HIGH)
-
-                for col in range(len(col_pins)):
+                GPIO.output(col_pins[col], GPIO.HIGH)
+                for row in range(len(row_pins)):
                     # Spalte aktivieren (HIGH), um die LED einzuschalten
-                    GPIO.output(col_pins[col], GPIO.HIGH)
-                    time.sleep(0.1)
+                    GPIO.output(row_pins[row], GPIO.HIGH)
+                    #time.sleep(0.1)
                     card_id = read_rfid_card()
                     # Kurze Pause um die CardID zu lesen
                     if card_id:
@@ -97,10 +96,10 @@ if __name__ == "__main__":
                     
 
                     # Spalte deaktivieren (LOW), um die LED auszuschalten
-                    GPIO.output(col_pins[col], GPIO.LOW)
+                    GPIO.output(row_pins[row], GPIO.LOW)
 
-                # Zeile deaktivieren (LOW)
-                GPIO.output(row_pins[row], GPIO.LOW)
+                # Zeile deaktivieren (LOW)(col_pins[col]
+                GPIO.output(col_pins[col], GPIO.LOW)
 
     except KeyboardInterrupt:
         pass
