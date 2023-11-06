@@ -20,10 +20,10 @@ row_pins = config['GPIOMatrix']['row_pins']
 col_pins = config['GPIOMatrix']['col_pins']
 
 BaseLength = config['SoundSetup']['BaseLength']
-Ton1 = config['CardIDs']['Ton1']
-Ton2 = config['CardIDs']['Ton2']
-Ton4 = config['CardIDs']['Ton4']
-Ton8 = config['CardIDs']['Ton8']
+Ton1 = config['CardIDs']['GanzerTon']
+Ton2 = config['CardIDs']['HalbTon']
+Ton4 = config['CardIDs']['ViertelTon']
+Ton8 = config['CardIDs']['AchtelTon']
 MasterKeys = config['CardIDs']['masterKeys']
 
 
