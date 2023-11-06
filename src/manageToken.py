@@ -90,7 +90,7 @@ if __name__ == "__main__":
                         dprint("ID des gelesenen RFID-Chips:", card_id,
                           " in Row", row, " and in Collum", col)     
                         
-                        #CheckCardIDs(card_id)
+                        CheckCardIDs(card_id)
                                        
                       
                     
