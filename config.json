@@ -4,7 +4,7 @@
         "col_pins": [5, 6, 13, 19, 26, 21, 20, 16, 12, 25]
     },
     "CardIDs": {
-        "Ton2": [401087982695],
+        "Ton2": [401087982695,1090530962508],
         "Ton4": [401087982696],
         "TonB": [401087982697],
         "Ton16": [401087982698],
@@ -19,5 +19,7 @@
         "2": "assets/oct-b.mp3",
         "3": "assets/oct-d.mp3",
         "4": "assets/oct-f.mp3"
-    }
+    },
+    "fluidsynth":{
+        "soundfont_path": "/usr/share/sounds/sf2/FluidR3_GM.sf2"}
 }
