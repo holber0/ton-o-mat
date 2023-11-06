@@ -3,8 +3,7 @@ import time
 import json
 from readToken import read_rfid_card
 from playSound import PlaySound
-from pydub import AudioSegment
-from pydub.playback import play
+
 
 
 
