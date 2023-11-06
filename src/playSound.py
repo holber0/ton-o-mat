@@ -36,8 +36,6 @@ def PlaySound(Tone,Length):
     midi_file.tracks.append(track)
 
     # Add a note (e.g., C4) to the track
-    print("tone is ",Tone)
-    print("tone INT is ",int(Tone))
     track.append(Message('note_on', note=int(Tone), velocity=64, time=0))  # C4
     track.append(Message('note_off', note=int(Tone), velocity=64, time=Length))  # Release note
 
@@ -57,7 +55,7 @@ def PlaySound(Tone,Length):
 
     #subprocess.call(command)
     process = subprocess.Popen(command)
-    playback_duration = Length/1000 + 0.5
+    playback_duration = Length/1000 + 0.4
     time.sleep(playback_duration)
     process.terminate()
 

@@ -4,21 +4,21 @@
         "col_pins": [5, 6, 13, 19, 26, 21, 20, 16, 12, 25]
     },
     "CardIDs": {
-        "Ton2": [401087982695,1090530962508],
-        "Ton4": [401087982696],
-        "TonB": [401087982697],
-        "Ton16": [401087982698],
+        "Ton1": [401087982695],
+        "Ton2": [401087982696],
+        "Ton4": [401087982697],
+        "Ton8": [401087982698,1090530962508],
         "masterKeys": [44608684042]
     },
     "SoundSetup":{
-        "BaseLength": 2500
+        "BaseLength": 2000
     },
-    "GPIORowToMP3": {
-        "0": "assets/oct-e.mp3",
-        "1": "assets/oct-g.mp3",
-        "2": "assets/oct-b.mp3",
-        "3": "assets/oct-d.mp3",
-        "4": "assets/oct-f.mp3"
+    "GPIORowToMidi": {
+        "0": "52",
+        "1": "56",
+        "2": "59",
+        "3": "63",
+        "4": "66"
     },
     "fluidsynth":{
         "soundfont_path": "/usr/share/sounds/sf2/FluidR3_GM.sf2"}

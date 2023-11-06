@@ -2,6 +2,7 @@ import RPi.GPIO as GPIO
 import time
 import json
 from readToken import read_rfid_card
+from playSound import PlaySound
 from pydub import AudioSegment
 from pydub.playback import play
 
@@ -19,10 +20,10 @@ row_pins = config['GPIOMatrix']['row_pins']
 col_pins = config['GPIOMatrix']['col_pins']
 
 BaseLength = config['SoundSetup']['BaseLength']
+Ton1 = config['CardIDs']['Ton1']
 Ton2 = config['CardIDs']['Ton2']
 Ton4 = config['CardIDs']['Ton4']
-Ton8 = config['CardIDs']['Ton4']
-Ton16 = config['CardIDs']['Ton16']
+Ton8 = config['CardIDs']['Ton8']
 MasterKeys = config['CardIDs']['masterKeys']
 
 
@@ -33,32 +34,32 @@ def dprint(*args):
         print(f"DEBUG:", *args)
 
 
-def setuptones():
+def MasterKey():
     dprint("MasterKey read:", card_id)
-
-def playSound(BaseLength, row):
-    dprint(card_id, "in SoundMatrix", BaseLength, row, "play song")
-    song = AudioSegment.from_mp3(config['GPIORowToMP3'][str(row)])
-    if song:
-        dprint("SongLoaded")
-    play(song[:BaseLength])
     
 
-    #song = AudioSegment.from_mp3(sound)
-
+def SetupSound(BaseLength, row):
+    dprint(card_id, "in SoundMatrix", BaseLength, row, "play song")
+    PlaySound((config['GPIORowToMidi'][str(row)]),int(BaseLength))
+    #MIDI Transfer to Notes    
+    #e = 52
+    #g = 56
+    #b = 59
+    #d = 63
+    #f = 66   
     
 
 def CheckCardIDs(card_id):
     if card_id in MasterKeys:
-        setuptones()
+        MasterKey()
+    if card_id in Ton1:
+        SetupSound(BaseLength, row)
     if card_id in Ton2:
-        playSound(BaseLength/2, row)
+        SetupSound(BaseLength/2, row)
     if card_id in Ton4:
-        playSound(BaseLength/4, row)
+        SetupSound(BaseLength/4, row)
     if card_id in Ton8:
-        playSound(BaseLength/8, row)
-    if card_id in Ton16:
-        playSound(BaseLength/16, row)
+        SetupSound(BaseLength/8, row)
 
 
 # GPIO-Modus festlegen
