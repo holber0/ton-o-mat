@@ -4,6 +4,7 @@ import json
 from readToken import read_rfid_card
 from pydub import AudioSegment
 from pydub.playback import play
+import pygame
 
 
 
@@ -42,7 +43,20 @@ def playSound(BaseLength, row):
     if song:
         dprint("SongLoaded")
     play(song)
-    
+
+
+def play_mp3(BaseLength, row):
+    pygame.mixer.init()
+    pygame.mixer.music.load(config['GPIORowToMP3'][str(row)][str(BaseLength)])
+    pygame.mixer.music.play()
+
+    # Allow the music to play
+    while pygame.mixer.music.get_busy():
+        pygame.time.Clock().tick(10)
+
+# Example usage
+# Replace with the path to your MP3 file
+
 
     #song = AudioSegment.from_mp3(sound)
 
@@ -52,7 +66,8 @@ def CheckCardIDs(card_id):
     if card_id in MasterKeys:
         setuptones()
     if card_id in Ton1:
-        playSound(BaseLength, row)
+        #playSound(BaseLength, row)
+        play_mp3(BaseLength, row)
     if card_id in Ton2:
         playSound(BaseLength/2, row)
     if card_id in Ton4:
