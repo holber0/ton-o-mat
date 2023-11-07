@@ -14,7 +14,9 @@
         "BaseLength": 2500
     },
     "GPIORowToMP3": {
-        "0": "assets/oct-e.mp3",
+        "0": {"2000":"assets/oct-e_2000.mp3",
+            "1000":"assets/oct-e_1000.mp3"
+        },
         "1": "assets/oct-g.mp3",
         "2": "assets/oct-b.mp3",
         "3": "assets/oct-d.mp3",
