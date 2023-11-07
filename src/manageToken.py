@@ -33,9 +33,9 @@ def dprint(*args):
     if DEBUG:
         print(f"DEBUG:", *args)
 
-
 def setuptones():
     dprint("MasterKey read:", card_id)
+
 
 def playSound(BaseLength, row):
     dprint(card_id, "in SoundMatrix", BaseLength, row, "play song")
@@ -53,13 +53,6 @@ def play_mp3(BaseLength, row):
     # Allow the music to play
     while pygame.mixer.music.get_busy():
         pygame.time.Clock().tick(10)
-
-# Example usage
-# Replace with the path to your MP3 file
-
-
-    #song = AudioSegment.from_mp3(sound)
-
     
 
 def CheckCardIDs(card_id):
@@ -105,9 +98,6 @@ if __name__ == "__main__":
                           " in Row", row, " and in Collum", col)     
                         
                         CheckCardIDs(card_id)
-                                       
-                      
-                    
 
                     # Spalte deaktivieren (LOW), um die LED auszuschalten
                     GPIO.output(row_pins[row], GPIO.LOW)
