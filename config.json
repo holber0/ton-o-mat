@@ -14,30 +14,30 @@
         "BaseLength": 2000
     },
     "GPIORowToMP3": {
-        "0": {"2000":"assets/oct-e_2000.mp3",
-              "1000":"assets/oct-e_1000.mp3",
-              "500":"assets/oct-e_500.mp3",
-              "250":"assets/oct-e_250.mp3"
+        "0": {"2000":"assets/e_2000.mp3",
+              "1000":"assets/e_1000.mp3",
+              "500":"assets/e_500.mp3",
+              "250":"assets/e_250.mp3"
         },
-        "1": {"2000":"assets/oct-g_2000.mp3",
-            "1000":"assets/oct-g_1000.mp3",
-            "500":"assets/oct-g_500.mp3",
-            "250":"assets/oct-g_250.mp3"
+        "1": {"2000":"assets/g_2000.mp3",
+            "1000":"assets/g_1000.mp3",
+            "500":"assets/g_500.mp3",
+            "250":"assets/g_250.mp3"
         },
-        "2": {"2000":"assets/oct-b_2000.mp3",
-            "1000":"assets/oct-b_1000.mp3",
-            "500":"assets/oct-b_500.mp3",
-            "250":"assets/oct-b_250.mp3"
+        "2": {"2000":"assets/b_2000.mp3",
+            "1000":"assets/b_1000.mp3",
+            "500":"assets/b_500.mp3",
+            "250":"assets/b_250.mp3"
         },
-        "3": {"2000":"assets/oct-d_2000.mp3",
-            "1000":"assets/oct-d_1000.mp3",
-            "500":"assets/oct-d_500.mp3",
-            "250":"assets/oct-d_250.mp3"
+        "3": {"2000":"assets/d_2000.mp3",
+            "1000":"assets/d_1000.mp3",
+            "500":"assets/d_500.mp3",
+            "250":"assets/d_250.mp3"
         },
-        "4": {"2000":"assets/oct-f_2000.mp3",
-            "1000":"assets/oct-f_1000.mp3",
-            "500":"assets/oct-f_500.mp3",
-            "250":"assets/oct-f_250.mp3"
+        "4": {"2000":"assets/f_2000.mp3",
+            "1000":"assets/f_1000.mp3",
+            "500":"assets/f_500.mp3",
+            "250":"assets/f_250.mp3"
         }
     }
 }
