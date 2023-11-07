@@ -69,11 +69,11 @@ def CheckCardIDs(card_id):
         #playSound(BaseLength, row)
         play_mp3(BaseLength, row)
     if card_id in Ton2:
-        playSound(BaseLength/2, row)
+        play_mp3(BaseLength/2, row)
     if card_id in Ton4:
-        playSound(BaseLength/4, row)
+        play_mp3(BaseLength/4, row)
     if card_id in Ton8:
-        playSound(BaseLength/8, row)
+        play_mp3(BaseLength/8, row)
 
 
 # GPIO-Modus festlegen
