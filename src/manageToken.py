@@ -19,10 +19,10 @@ row_pins = config['GPIOMatrix']['row_pins']
 col_pins = config['GPIOMatrix']['col_pins']
 
 BaseLength = config['SoundSetup']['BaseLength']
+Ton1 = config['CardIDs']['Ton1']
 Ton2 = config['CardIDs']['Ton2']
 Ton4 = config['CardIDs']['Ton4']
-Ton8 = config['CardIDs']['Ton4']
-Ton16 = config['CardIDs']['Ton16']
+Ton8 = config['CardIDs']['Ton8']
 MasterKeys = config['CardIDs']['masterKeys']
 
 
@@ -38,10 +38,10 @@ def setuptones():
 
 def playSound(BaseLength, row):
     dprint(card_id, "in SoundMatrix", BaseLength, row, "play song")
-    song = AudioSegment.from_mp3(config['GPIORowToMP3'][str(row)])
+    song = AudioSegment.from_mp3(config['GPIORowToMP3'][str(row)][str(BaseLength)])
     if song:
         dprint("SongLoaded")
-    play(song[:BaseLength])
+    play(song)
     
 
     #song = AudioSegment.from_mp3(sound)
@@ -51,14 +51,14 @@ def playSound(BaseLength, row):
 def CheckCardIDs(card_id):
     if card_id in MasterKeys:
         setuptones()
+    if card_id in Ton1:
+        playSound(BaseLength, row)
     if card_id in Ton2:
         playSound(BaseLength/2, row)
     if card_id in Ton4:
         playSound(BaseLength/4, row)
     if card_id in Ton8:
         playSound(BaseLength/8, row)
-    if card_id in Ton16:
-        playSound(BaseLength/16, row)
 
 
 # GPIO-Modus festlegen

@@ -4,22 +4,40 @@
         "col_pins": [5, 6, 13, 19, 26, 21, 20, 16, 12, 25]
     },
     "CardIDs": {
-        "Ton2": [401087982694],
-        "Ton4": [401087982696],
-        "TonB": [401087982697],
-        "Ton16": [401087982695],
+        "Ton1": [401087982694,596395393086],
+        "Ton2": [401087982696],
+        "Ton4": [401087982697],
+        "Ton8": [401087982695],
         "masterKeys": [44608684042]
     },
     "SoundSetup":{
-        "BaseLength": 2500
+        "BaseLength": 2000
     },
     "GPIORowToMP3": {
         "0": {"2000":"assets/oct-e_2000.mp3",
-            "1000":"assets/oct-e_1000.mp3"
+              "1000":"assets/oct-e_1000.mp3",
+              "500":"assets/oct-e_500.mp3",
+              "250":"assets/oct-e_250.mp3"
         },
-        "1": "assets/oct-g.mp3",
-        "2": "assets/oct-b.mp3",
-        "3": "assets/oct-d.mp3",
-        "4": "assets/oct-f.mp3"
+        "1": {"2000":"assets/oct-g_2000.mp3",
+            "1000":"assets/oct-g_1000.mp3",
+            "500":"assets/oct-g_500.mp3",
+            "250":"assets/oct-g_250.mp3"
+        },
+        "2": {"2000":"assets/oct-b_2000.mp3",
+            "1000":"assets/oct-b_1000.mp3",
+            "500":"assets/oct-b_500.mp3",
+            "250":"assets/oct-b_250.mp3"
+        },
+        "3": {"2000":"assets/oct-d_2000.mp3",
+            "1000":"assets/oct-d_1000.mp3",
+            "500":"assets/oct-d_500.mp3",
+            "250":"assets/oct-d_250.mp3"
+        },
+        "4": {"2000":"assets/oct-f_2000.mp3",
+            "1000":"assets/oct-f_1000.mp3",
+            "500":"assets/oct-f_500.mp3",
+            "250":"assets/oct-f_250.mp3"
+        }
     }
 }
