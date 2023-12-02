@@ -5,7 +5,7 @@ from readToken import read_rfid_card
 from pydub import AudioSegment
 from pydub.playback import play
 import pygame
-
+import serial
 
 
 DEBUG = True  # Set this to False when you want to disable debug output
@@ -16,8 +16,8 @@ DEBUG = True  # Set this to False when you want to disable debug output
 with open('config.json', 'r') as json_file:
     config = json.load(json_file)
 
-row_pins = config['GPIOMatrix']['row_pins']
-col_pins = config['GPIOMatrix']['col_pins']
+#row_pins = config['GPIOMatrix']['row_pins']
+#col_pins = config['GPIOMatrix']['col_pins']
 
 BaseLength = config['SoundSetup']['BaseLength']
 Ton1 = config['CardIDs']['Ton1']
@@ -26,6 +26,14 @@ Ton4 = config['CardIDs']['Ton4']
 Ton8 = config['CardIDs']['Ton8']
 MasterKeys = config['CardIDs']['masterKeys']
 
+Row0 = config['PinLayout']['0']
+Row1 = config['PinLayout']['1']
+Row2 = config['PinLayout']['2']
+Row3 = config['PinLayout']['3']
+Row4 = config['PinLayout']['4']
+
+arduino = serial.Serial('/dev/ttyUSB0', 115200, timeout=1)  # Anpassen des COM-Ports
+time.sleep(2)  # Eine kurze Wartezeit für die Stabilität der Verbindung
 
 
 
@@ -60,51 +68,41 @@ def CheckCardIDs(card_id):
         setuptones()
     if card_id in Ton1:
         #playSound(BaseLength, row)
-        play_mp3(BaseLength, row)
+        play_mp3(BaseLength, row[0])
     if card_id in Ton2:
-        play_mp3(BaseLength/2, row)
+        play_mp3(BaseLength/2, row[0])
     if card_id in Ton4:
-        play_mp3(BaseLength/4, row)
+        play_mp3(BaseLength/4, row[0])
     if card_id in Ton8:
-        play_mp3(BaseLength/8, row)
+        play_mp3(BaseLength/8, row[0])
 
 
-# GPIO-Modus festlegen
-GPIO.setmode(GPIO.BCM)
-# Init: GPIO-Pins als Ausgänge für Zeilen und Spalten konfigurieren
-for pin in row_pins:
-    GPIO.setup(pin, GPIO.OUT)
-    GPIO.output(pin, GPIO.LOW)
-for pin in col_pins:
-    GPIO.setup(pin, GPIO.OUT)
-    GPIO.output(pin, GPIO.LOW)
+def find_keys_with_value_in_lists(config_dict, value):
+    matching_keys = []
+    for key, value_list in config_dict.items():
+        if value in value_list:
+            matching_keys.append(key)
+    return matching_keys
 
 
 if __name__ == "__main__":
 
     try:
         while True:
-            for col in range(len(col_pins)):
-                # Zeile aktivieren (HIGH)
-                GPIO.output(col_pins[col], GPIO.HIGH)
-                for row in range(len(row_pins)):
-                    # Spalte aktivieren (HIGH), um die LED einzuschalten
-                    GPIO.output(row_pins[row], GPIO.HIGH)
-                    time.sleep(0.1)
-                    card_id = read_rfid_card()
-                    # Kurze Pause um die CardID zu lesen
-                    if card_id:
+            received_data = int(arduino.readline().decode().strip())
+            dprint(f"Empfangener Pin: {received_data}")
+            row = find_keys_with_value_in_lists(config['PinLayout'], received_data)
+            card_id = read_rfid_card()
+            if card_id:
                         dprint("ID des gelesenen RFID-Chips:", card_id,
-                          " in Row", row, " and in Collum", col)     
-                        
+                          " in Row", row[0])     
                         CheckCardIDs(card_id)
-
-                    # Spalte deaktivieren (LOW), um die LED auszuschalten
-                    GPIO.output(row_pins[row], GPIO.LOW)
-
-                # Zeile deaktivieren (LOW)(col_pins[col]
-                GPIO.output(col_pins[col], GPIO.LOW)
-
+            #time.sleep(0.1) 
+            arduino.write(b"OK\n")
+            
+                
+            
+            
     except KeyboardInterrupt:
         pass
 
