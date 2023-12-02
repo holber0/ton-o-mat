@@ -14,11 +14,11 @@ dtoverlay=spi-bcm2708
 \
 use `sudo raspi-config` to Enable „Advanced Options“ > „SPI“ restart afterwards `sudo reboot now`
 
-## FFMPEG
-ffmpeg is needed to play and modify sound.
+## fluidsynth
 
+fluidsynth is need as a background Service prividing a Midi Port for Pyton
 ```
-sudo apt-get install ffmpeg
+fluidsynth -a alsa -m alsa_seq -i -l -s -g 1.0 /usr/share/sounds/sf2/FluidR3_GM.sf2
 ```
 
 ## Pyton Settings

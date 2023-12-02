@@ -2,6 +2,7 @@ import RPi.GPIO as GPIO
 import time
 import json
 from readToken import read_rfid_card
+
 from pydub import AudioSegment
 from pydub.playback import play
 import pygame
@@ -20,6 +21,7 @@ row_pins = config['GPIOMatrix']['row_pins']
 col_pins = config['GPIOMatrix']['col_pins']
 
 BaseLength = config['SoundSetup']['BaseLength']
+
 Ton1 = config['CardIDs']['Ton1']
 Ton2 = config['CardIDs']['Ton2']
 Ton4 = config['CardIDs']['Ton4']
@@ -32,6 +34,7 @@ MasterKeys = config['CardIDs']['masterKeys']
 def dprint(*args):
     if DEBUG:
         print(f"DEBUG:", *args)
+
 
 def setuptones():
     dprint("MasterKey read:", card_id)
@@ -53,6 +56,7 @@ def play_mp3(BaseLength, row):
     # Allow the music to play
     while pygame.mixer.music.get_busy():
         pygame.time.Clock().tick(10)
+
     
 
 def CheckCardIDs(card_id):
@@ -67,6 +71,7 @@ def CheckCardIDs(card_id):
         play_mp3(BaseLength/4, row)
     if card_id in Ton8:
         play_mp3(BaseLength/8, row)
+
 
 
 # GPIO-Modus festlegen

@@ -1,5 +1,6 @@
 # import RPi.GPIO as GPIO
 from mfrc522 import SimpleMFRC522
+import json
 
 
 def read_rfid_card():

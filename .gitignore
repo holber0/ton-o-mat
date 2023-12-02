@@ -6,6 +6,7 @@ __pycache__/
 #custom trash files
 
 dummy.py
+dummy2.py
 # C extensions
 *.so
 
