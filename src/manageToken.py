@@ -55,7 +55,7 @@ def playSound(BaseLength, row):
 
 def play_mp3(BaseLength, row):
     pygame.mixer.init()
-    pygame.mixer.music.load(config['GPIORowToMP3'][str(row)][str(BaseLength)])
+    pygame.mixer.music.load(config['GPIORowToMP3'][str(row)][str(int(BaseLength))])
     pygame.mixer.music.play()
 
     # Allow the music to play
