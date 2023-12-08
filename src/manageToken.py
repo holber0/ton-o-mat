@@ -45,26 +45,24 @@ def setuptones():
     dprint("MasterKey read:", card_id)
 
 
-""" def playSound(BaseLength, row):
+def playSound(BaseLength, row):
     dprint(card_id, "in SoundMatrix", BaseLength, row, "play song")
     song = AudioSegment.from_mp3(config['GPIORowToMP3'][str(row)][str(BaseLength)])
     if song:
         dprint("SongLoaded")
     play(song)
- """
+
 
 def play_mp3(BaseLength, row):
     pygame.mixer.init()
-    
-    file = open(config['GPIORowToMP3'][str(row)][str(int(BaseLength))])
-    pygame.mixer.music.load(file)
+    f = open(config['GPIORowToMP3'][str(row)][str(int(BaseLength))])
+    pygame.mixer.music.load(f)
     pygame.mixer.music.play()
 
     # Allow the music to play
     while pygame.mixer.music.get_busy():
         pygame.time.Clock().tick(10)
-    file.close()
-    
+    f.close()
 
 def CheckCardIDs(card_id):
     if card_id in MasterKeys:
