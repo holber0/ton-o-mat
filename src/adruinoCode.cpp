@@ -1,7 +1,7 @@
-const int numberOfPins = 53;  // Anzahl der Pins, die Sie steuern möchten
+const int numberOfPins = 2;  // Anzahl der Pins, die Sie steuern möchten
 const int onOffDuration = 1;  // Zeit in Millisekunden für Ein- und Ausschalten
 
-int currentPin = 2; // Start-Pin
+int currentPin = 53; // Start-Pin
 bool waitForOK = false; // Variable, um auf Bestätigung zu warten
 
 void setup() {
@@ -26,9 +26,9 @@ void loop() {
     if (input.substring(0, 2) == "OK") { // Vergleich des empfangenen Strings mit "OK"
       waitForOK = false; // Wenn "OK" empfangen wurde, zum nächsten Pin wechseln
       digitalWrite(currentPin, LOW);  // Aktuellen Pin ausschalten
-      currentPin++; // Zum nächsten Pin wechseln
-      if (currentPin > numberOfPins + 1) {
-        currentPin = 2; // Zurück zum ersten Pin, wenn alle durchgeschaltet wurden
+      currentPin--; // Zum nächsten Pin wechseln
+      if (currentPin < numberOfPins) {
+        currentPin = 53; // Zurück zum ersten Pin, wenn alle durchgeschaltet wurden
       }
     }
   }
