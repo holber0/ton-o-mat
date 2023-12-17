@@ -1,4 +1,4 @@
-const int numberOfPins = 1;  // Anzahl der Pins, die Sie steuern möchten
+const int numberOfPins = 2;  // Anzahl der Pins, die Sie steuern möchten
 const int onOffDuration = 1;  // Zeit in Millisekunden für Ein- und Ausschalten
 
 int currentPin = 53; // Start-Pin
@@ -6,7 +6,7 @@ bool waitForOK = false; // Variable, um auf Bestätigung zu warten
 
 void setup() {
   Serial.begin(115200);  // Serielle Kommunikation starten
-  for (int i = 53; i <= numberOfPins ; i--) {
+  for (int i = 2; i <= 53; i++) {
     pinMode(i, OUTPUT); // Alle Pins als Ausgänge konfigurieren
   }
 }
