@@ -1,0 +1,1721 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/michael/Developement/Python/ton-o-mat/Electronics/Schaltplan/Schaltplan.kicad_sch</source>
+    <date>Mi 08 Nov 2023 08:24:38</date>
+    <tool>Eeschema 7.0.8</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Schaltplan.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>untitled.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J2">
+      <value>Conn_01x04_Socket</value>
+      <footprint>Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Socket" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Schaltplan.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2144bbc0-4424-4c1a-b27d-b2ac77e3edc5</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x15_Socket</value>
+      <footprint>Connector_JST:JST_EH_B15B-EH-A_1x15_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x15_Socket" description="Generic connector, single row, 01x15, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Schaltplan.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x15, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0558a01d-3f6d-4d81-b2cf-04434adde5d0</tstamps>
+    </comp>
+    <comp ref="J51">
+      <value>Conn_01x06_Socket</value>
+      <footprint>Connector_JST:JST_EH_B6B-EH-A_1x06_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x06_Socket" description="Generic connector, single row, 01x06, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Schaltplan.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x06, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d7dfa21e-ab15-4484-89d9-a8cce0bb440b</tstamps>
+    </comp>
+    <comp ref="J52">
+      <value>Conn_01x06_Socket</value>
+      <footprint>Connector_JST:JST_EH_B6B-EH-A_1x06_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x06_Socket" description="Generic connector, single row, 01x06, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Schaltplan.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x06, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b6352112-7063-46a5-b6da-bc8cf03d5b45</tstamps>
+    </comp>
+    <comp ref="J53">
+      <value>Conn_01x06_Socket</value>
+      <footprint>Connector_JST:JST_EH_B6B-EH-A_1x06_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x06_Socket" description="Generic connector, single row, 01x06, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Schaltplan.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x06, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>928c6389-e5f7-4288-a0a9-0bc7a368e8e0</tstamps>
+    </comp>
+    <comp ref="J54">
+      <value>Conn_01x06_Socket</value>
+      <footprint>Connector_JST:JST_EH_B6B-EH-A_1x06_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x06_Socket" description="Generic connector, single row, 01x06, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Schaltplan.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x06, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2633e609-8225-43ad-97eb-ad221b1046c3</tstamps>
+    </comp>
+    <comp ref="J55">
+      <value>Conn_01x06_Socket</value>
+      <footprint>Connector_JST:JST_EH_B6B-EH-A_1x06_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x06_Socket" description="Generic connector, single row, 01x06, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Schaltplan.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x06, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dbfa69bd-2a97-4b05-b5b0-972a50724f4c</tstamps>
+    </comp>
+    <comp ref="J57">
+      <value>Conn_01x10_Socket</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x10_Socket" description="Generic connector, single row, 01x10, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Schaltplan.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x10, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ad6e3bdf-0f1a-4a71-8c37-9e53a68a8e99</tstamps>
+    </comp>
+    <comp ref="J58">
+      <value>Conn_01x10_Socket</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x10_Socket" description="Generic connector, single row, 01x10, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Schaltplan.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x10, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b6e23c5d-c452-4532-959c-b6e655338f80</tstamps>
+    </comp>
+    <comp ref="J59">
+      <value>Conn_01x10_Socket</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x10_Socket" description="Generic connector, single row, 01x10, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Schaltplan.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x10, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>095745fc-3d4c-4ab3-8f81-dd497479a2d1</tstamps>
+    </comp>
+    <comp ref="J60">
+      <value>Conn_01x10_Socket</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x10_Socket" description="Generic connector, single row, 01x10, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Schaltplan.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x10, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a808e441-ad40-4762-b673-aac42565132c</tstamps>
+    </comp>
+    <comp ref="J61">
+      <value>Conn_01x10_Socket</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x10_Socket" description="Generic connector, single row, 01x10, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Schaltplan.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x10, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8a6d6307-a8b3-41fb-96fb-84880b73648e</tstamps>
+    </comp>
+    <comp ref="P1">
+      <value>USB_C_Plug</value>
+      <footprint>Connector_USB:USB_C_Receptacle_GCT_USB4085</footprint>
+      <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <libsource lib="Connector" part="USB_C_Plug" description="USB Type-C Plug connector"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Schaltplan.kicad_sch"/>
+      <property name="ki_description" value="USB Type-C Plug connector"/>
+      <property name="ki_keywords" value="usb universal serial bus"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eddde3c7-e719-47df-a9ff-5620c422bea0</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>b5479ff1-c077-4dca-9aab-745f51a8dc7c</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>474ea644-39b3-4ca3-947c-0526e2b942b2</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>86f06c38-35c3-476a-a85f-05c59e40cbac</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>5913d10d-b0ca-4db9-8e89-7d7f15d2dd45</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>6de25315-c1f2-43ae-adf2-7fcd7fe3605d</tstamps>
+    </comp>
+    <comp ref="Q6">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>de3a510d-49ec-4786-a1fa-8e33f936e6a3</tstamps>
+    </comp>
+    <comp ref="Q7">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>0f018ad8-aba3-453c-a9c4-e1852699503c</tstamps>
+    </comp>
+    <comp ref="Q8">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>c54944ae-fc37-465f-bc80-75b40b9498e1</tstamps>
+    </comp>
+    <comp ref="Q9">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>8ea06314-91a9-453a-87b5-f388640c2004</tstamps>
+    </comp>
+    <comp ref="Q10">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>947e34f1-cc80-4d5b-9ce8-7b5bc60dbd07</tstamps>
+    </comp>
+    <comp ref="Q11">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>e2ea21dc-716f-4949-b5f9-dcb7a68d4611</tstamps>
+    </comp>
+    <comp ref="Q12">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>5c3017e9-fa9b-4e57-ad2d-5399b13d75a1</tstamps>
+    </comp>
+    <comp ref="Q13">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>0d665086-ea33-4fea-8266-a763b845804c</tstamps>
+    </comp>
+    <comp ref="Q14">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>176b26fe-2a01-4fee-aba3-3afb2a85eb39</tstamps>
+    </comp>
+    <comp ref="Q15">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>d7f5901b-e9b2-43cd-9b5b-6bcc2fff8814</tstamps>
+    </comp>
+    <comp ref="Q16">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>dbbdd4c5-cb09-423a-a86c-3165ccc03fa6</tstamps>
+    </comp>
+    <comp ref="Q17">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>09db7260-26d2-44b2-bc85-fc09b40ba590</tstamps>
+    </comp>
+    <comp ref="Q18">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>c53def4e-a4fb-45a6-9622-d15b54e673ff</tstamps>
+    </comp>
+    <comp ref="Q19">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>e8a05d3e-4a8f-44da-87bc-b362057da423</tstamps>
+    </comp>
+    <comp ref="Q20">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>d845ab66-bde8-41ad-9ba6-32787d10de1a</tstamps>
+    </comp>
+    <comp ref="Q21">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>9791a30f-eb0f-47ad-aef5-d2c6a2097fe0</tstamps>
+    </comp>
+    <comp ref="Q22">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>6ccd52b7-96a8-4c47-b173-a376c6fef685</tstamps>
+    </comp>
+    <comp ref="Q23">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>6f38852b-ecbb-4ebb-9e15-83eac0c00647</tstamps>
+    </comp>
+    <comp ref="Q24">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>b5c3e88d-abbf-4f03-8ff8-f1d84687659a</tstamps>
+    </comp>
+    <comp ref="Q25">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>e63d90e6-5f45-4072-b8a5-dad77d66a3a9</tstamps>
+    </comp>
+    <comp ref="Q26">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>c2ef2dc7-6f3b-46e0-9c0d-c1ce1160619a</tstamps>
+    </comp>
+    <comp ref="Q27">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>7e154022-b978-4364-a6b0-13ab930a384a</tstamps>
+    </comp>
+    <comp ref="Q28">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>33a7b617-ecb7-49e6-a5c9-ca1805fb3924</tstamps>
+    </comp>
+    <comp ref="Q29">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>96105668-86ba-44cd-ad96-e0e791b6febc</tstamps>
+    </comp>
+    <comp ref="Q30">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>350a84b9-0e10-4b16-b642-cb2a38746b73</tstamps>
+    </comp>
+    <comp ref="Q31">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>f860965e-b203-4518-a63e-53855acf9e9f</tstamps>
+    </comp>
+    <comp ref="Q32">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>8ba5e6bf-6267-4a6c-9ec7-109a18d9faae</tstamps>
+    </comp>
+    <comp ref="Q33">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>0941a7cb-846b-4456-9b5d-8b809d77912f</tstamps>
+    </comp>
+    <comp ref="Q34">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>5cd2856a-b082-4e86-a1b6-75371f590ace</tstamps>
+    </comp>
+    <comp ref="Q35">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>d7e49623-0114-4805-afeb-9e31cc58a007</tstamps>
+    </comp>
+    <comp ref="Q36">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>cfd899c1-3074-46b9-9e55-326ee2154173</tstamps>
+    </comp>
+    <comp ref="Q37">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>e3d2826a-5218-4fb2-a299-050937286953</tstamps>
+    </comp>
+    <comp ref="Q38">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>982b7078-cf89-46f5-a473-45638a2437bc</tstamps>
+    </comp>
+    <comp ref="Q39">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>3def0714-613d-4639-8e69-68569a924bf0</tstamps>
+    </comp>
+    <comp ref="Q40">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>195ea758-5d3b-45d0-980b-6413b0c5b6ae</tstamps>
+    </comp>
+    <comp ref="Q41">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>3d13d232-6865-4dd6-9b29-df0d74679cf0</tstamps>
+    </comp>
+    <comp ref="Q42">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>5aa4ac99-7049-42d1-8383-1fb3c66b8150</tstamps>
+    </comp>
+    <comp ref="Q43">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>48cce5f8-7f69-44f3-b2d2-ba668878be95</tstamps>
+    </comp>
+    <comp ref="Q44">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>07eec8ab-eb55-4483-beda-68cfefee48e2</tstamps>
+    </comp>
+    <comp ref="Q45">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>44b15f9e-e6c5-42e3-b512-7b70c997d402</tstamps>
+    </comp>
+    <comp ref="Q46">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>583b852d-db1b-4740-b878-7e68263c3048</tstamps>
+    </comp>
+    <comp ref="Q47">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>07bab1c4-aea8-4b90-a1ff-77c3c5237b9d</tstamps>
+    </comp>
+    <comp ref="Q48">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>a461df8a-fc29-4592-bca4-e7abdbc06ec7</tstamps>
+    </comp>
+    <comp ref="Q49">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>7b5f8400-8c3b-4134-9654-f8d2c1cc7f5c</tstamps>
+    </comp>
+    <comp ref="Q50">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>6f7dda98-cc94-4535-9d22-39943149689c</tstamps>
+    </comp>
+    <comp ref="Q51">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>784afa0c-e4bf-49f3-8ece-312ed0a63fca</tstamps>
+    </comp>
+    <comp ref="Q52">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>e12531ba-1c9e-4f23-a1c7-3d5040e26a14</tstamps>
+    </comp>
+    <comp ref="Q53">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>4038e28c-6cd4-4fe1-9bba-7c792297c084</tstamps>
+    </comp>
+    <comp ref="Q54">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>7b779f96-bd2e-418c-8632-a3f45d7cf405</tstamps>
+    </comp>
+    <comp ref="Q55">
+      <value>2SC1815</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SC1815" description="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="Low Noise Audio NPN Transistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>a02bc852-a598-4fbf-bf22-51560f3db7d0</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>1ff92644-aea8-428c-975b-88a80d3f7d31</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>9faa0fba-236a-448a-a7df-426b81c81482</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>7f3abf8b-9c4c-474a-89ac-686b7013fa7c</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>58102ed9-9255-4945-a8cc-57b36c17a5a8</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>524fd9cc-2bd2-4bd8-9d97-bbba52ca549e</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>aef7b6c8-cadd-47db-a054-7e74ef0b0d4b</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>5481369e-7582-497f-9bf6-30bed3676bc3</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>d8bf4b44-dd86-49ba-bba9-8b49c60e5253</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>ca3b4481-ccac-4ad0-913c-97cdd00ba75a</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>83a0daa8-688e-4908-a462-c116538b0711</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>8a6e6ecd-17b6-4e88-a852-91ba6a54efba</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>e3d08423-4207-4e02-86ea-3355a2eefbb1</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>ce72c6b1-8733-4ca1-95f5-d27cbf64e9d9</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>67852e1a-a6c4-481d-9f48-eed28cb6b954</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Matrix"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Matrix/" tstamps="/3f69be52-0fc2-409c-85cf-74c2bc90dcca/"/>
+      <tstamps>e6f13729-ce24-485f-b62f-7c2431aa5a8a</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x04_Socket">
+      <description>Generic connector, single row, 01x04, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Socket</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x06_Socket">
+      <description>Generic connector, single row, 01x06, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_Socket</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x10_Socket">
+      <description>Generic connector, single row, 01x10, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x10_Socket</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x15_Socket">
+      <description>Generic connector, single row, 01x15, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x15_Socket</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_C_Plug">
+      <description>USB Type-C Plug connector</description>
+      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
+      <footprints>
+        <fp>USB*C*Plug*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">USB_C_Plug</field>
+        <field name="Datasheet">https://www.usb.org/sites/default/files/documents/usb_type-c.zip</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A2" name="TX1+" type="bidirectional"/>
+        <pin num="A3" name="TX1-" type="bidirectional"/>
+        <pin num="A4" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC" type="bidirectional"/>
+        <pin num="A6" name="D+" type="bidirectional"/>
+        <pin num="A7" name="D-" type="bidirectional"/>
+        <pin num="A8" name="SBU1" type="bidirectional"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A10" name="RX2-" type="bidirectional"/>
+        <pin num="A11" name="RX2+" type="bidirectional"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B2" name="TX2+" type="bidirectional"/>
+        <pin num="B3" name="TX2-" type="bidirectional"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="VCONN" type="bidirectional"/>
+        <pin num="B8" name="SBU2" type="bidirectional"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B10" name="RX1-" type="bidirectional"/>
+        <pin num="B11" name="RX1+" type="bidirectional"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="2SC1815">
+      <description>0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92</description>
+      <docs>https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2SC1815</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet">https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="B" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/app/extensions/Library/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/app/extensions/Library/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>/app/extensions/Library/symbols//Transistor_BJT.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="3,3V">
+      <node ref="J51" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J52" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J53" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J54" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J55" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="P1" pin="A4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="P1" pin="A9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="P1" pin="B4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="P1" pin="B9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q11" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q14" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q8" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="J51" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J52" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J53" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J54" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J55" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="P1" pin="A1" pinfunction="GND" pintype="passive"/>
+      <node ref="P1" pin="A12" pinfunction="GND" pintype="passive"/>
+      <node ref="P1" pin="B1" pinfunction="GND" pintype="passive"/>
+      <node ref="P1" pin="B12" pinfunction="GND" pintype="passive"/>
+    </net>
+    <net code="3" name="GPIO00">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="GPIO01">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="GPIO02">
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="GPIO03">
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="GPIO04">
+      <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="8" name="GPIO05">
+      <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="GPIO06">
+      <node ref="J3" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="GPIO07">
+      <node ref="J3" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="GPIO08">
+      <node ref="J3" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="GPIO09">
+      <node ref="J3" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="GPIO10">
+      <node ref="J3" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="14" name="GPIO11">
+      <node ref="J3" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="15" name="GPIO12">
+      <node ref="J3" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="GPIO13">
+      <node ref="J3" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+    </net>
+    <net code="17" name="GPIO14">
+      <node ref="J3" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+    </net>
+    <net code="18" name="MISO">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J51" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J52" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J53" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J54" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J55" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="19" name="MOSI">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J51" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J52" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J53" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J54" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J55" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(Q1-B)">
+      <node ref="Q1" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(Q1-E)">
+      <node ref="Q1" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="Q21" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q26" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q31" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q36" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q41" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q46" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q5" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q51" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q7" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(Q2-B)">
+      <node ref="Q2" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(Q8-B)">
+      <node ref="Q8" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(Q10-B)">
+      <node ref="Q10" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="Q13" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="Q16" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="Q5" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="Q6" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(Q10-C)">
+      <node ref="Q10" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q18" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q23" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q28" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q33" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q38" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q43" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q48" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q53" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q8" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="Q9" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(Q11-B)">
+      <node ref="Q11" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(Q11-E)">
+      <node ref="Q11" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="Q12" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q13" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q19" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q24" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q29" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q34" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q39" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q44" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q49" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q54" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(Q12-B)">
+      <node ref="Q12" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="Q15" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="Q3" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="Q4" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="Q9" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(Q14-B)">
+      <node ref="Q14" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(Q14-E)">
+      <node ref="Q14" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="Q15" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q16" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q20" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q25" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q30" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q35" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q40" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q45" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q50" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q55" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(Q17-B)">
+      <node ref="Q17" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="Q18" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="Q19" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="Q20" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="Q7" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(Q17-C)">
+      <node ref="Q17" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="Q22" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q27" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q32" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q37" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q42" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q47" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q52" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q6" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(Q21-B)">
+      <node ref="Q21" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="Q22" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="Q23" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="Q24" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="Q25" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(Q26-B)">
+      <node ref="Q26" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="Q27" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="Q28" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="Q29" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="Q30" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(Q31-B)">
+      <node ref="Q31" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="Q32" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="Q33" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="Q34" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="Q35" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(Q36-B)">
+      <node ref="Q36" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="Q37" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="Q38" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="Q39" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="Q40" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(Q41-B)">
+      <node ref="Q41" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="Q42" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="Q43" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="Q44" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="Q45" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(Q46-B)">
+      <node ref="Q46" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="Q47" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="Q48" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="Q49" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="Q50" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(Q51-B)">
+      <node ref="Q51" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="Q52" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="Q53" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="Q54" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="Q55" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+    </net>
+    <net code="40" name="RST01">
+      <node ref="J57" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q3" pin="1" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="41" name="RST02">
+      <node ref="J57" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q5" pin="1" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="42" name="RST03">
+      <node ref="J57" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="Q7" pin="1" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="43" name="RST04">
+      <node ref="J57" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="Q21" pin="1" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="44" name="RST05">
+      <node ref="J57" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="Q26" pin="1" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="45" name="RST06">
+      <node ref="J57" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="Q31" pin="1" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="46" name="RST07">
+      <node ref="J57" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="Q36" pin="1" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="47" name="RST08">
+      <node ref="J57" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="Q41" pin="1" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="48" name="RST09">
+      <node ref="J57" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="Q46" pin="1" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="49" name="RST10">
+      <node ref="J57" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="Q51" pin="1" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="50" name="RST11">
+      <node ref="J58" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q4" pin="1" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="51" name="RST12">
+      <node ref="J58" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q6" pin="1" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="52" name="RST13">
+      <node ref="J58" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="Q17" pin="1" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="53" name="RST14">
+      <node ref="J58" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="Q22" pin="1" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="54" name="RST15">
+      <node ref="J58" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="Q27" pin="1" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="55" name="RST16">
+      <node ref="J58" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="Q32" pin="1" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="56" name="RST17">
+      <node ref="J58" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="Q37" pin="1" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="57" name="RST18">
+      <node ref="J58" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="Q42" pin="1" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="58" name="RST19">
+      <node ref="J58" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="Q47" pin="1" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="59" name="RST20">
+      <node ref="J58" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="Q52" pin="1" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="60" name="RST21">
+      <node ref="J59" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q9" pin="1" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="61" name="RST22">
+      <node ref="J59" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q10" pin="1" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="62" name="RST23">
+      <node ref="J59" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="Q18" pin="1" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="63" name="RST24">
+      <node ref="J59" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="Q23" pin="1" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="64" name="RST25">
+      <node ref="J59" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="Q28" pin="1" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="65" name="RST26">
+      <node ref="J59" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="Q33" pin="1" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="66" name="RST27">
+      <node ref="J59" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="Q38" pin="1" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="67" name="RST28">
+      <node ref="J59" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="Q43" pin="1" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="68" name="RST29">
+      <node ref="J59" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="Q48" pin="1" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="69" name="RST30">
+      <node ref="J59" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="Q53" pin="1" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="70" name="RST31">
+      <node ref="J60" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q12" pin="1" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="71" name="RST32">
+      <node ref="J60" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q13" pin="1" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="72" name="RST33">
+      <node ref="J60" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="Q19" pin="1" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="73" name="RST34">
+      <node ref="J60" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="Q24" pin="1" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="74" name="RST35">
+      <node ref="J60" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="Q29" pin="1" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="75" name="RST36">
+      <node ref="J60" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="Q34" pin="1" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="76" name="RST37">
+      <node ref="J60" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="Q39" pin="1" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="77" name="RST38">
+      <node ref="J60" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="Q44" pin="1" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="78" name="RST39">
+      <node ref="J60" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="Q49" pin="1" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="79" name="RST40">
+      <node ref="J60" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="Q54" pin="1" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="80" name="RST41">
+      <node ref="J61" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q15" pin="1" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="81" name="RST42">
+      <node ref="J61" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q16" pin="1" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="82" name="RST43">
+      <node ref="J61" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="Q20" pin="1" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="83" name="RST44">
+      <node ref="J61" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="Q25" pin="1" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="84" name="RST45">
+      <node ref="J61" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="Q30" pin="1" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="85" name="RST46">
+      <node ref="J61" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="Q35" pin="1" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="86" name="RST47">
+      <node ref="J61" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="Q40" pin="1" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="87" name="RST48">
+      <node ref="J61" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="Q45" pin="1" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="88" name="RST49">
+      <node ref="J61" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="Q50" pin="1" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="89" name="RST50">
+      <node ref="J61" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="Q55" pin="1" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="90" name="SCK">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J51" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J52" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J53" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J54" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J55" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="91" name="SDA">
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J51" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J52" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J53" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J54" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J55" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="92" name="unconnected-(P1-CC-PadA5)">
+      <node ref="P1" pin="A5" pinfunction="CC" pintype="bidirectional"/>
+    </net>
+    <net code="93" name="unconnected-(P1-D+-PadA6)">
+      <node ref="P1" pin="A6" pinfunction="D+" pintype="bidirectional"/>
+    </net>
+    <net code="94" name="unconnected-(P1-D--PadA7)">
+      <node ref="P1" pin="A7" pinfunction="D-" pintype="bidirectional"/>
+    </net>
+    <net code="95" name="unconnected-(P1-RX1+-PadB11)">
+      <node ref="P1" pin="B11" pinfunction="RX1+" pintype="bidirectional"/>
+    </net>
+    <net code="96" name="unconnected-(P1-RX1--PadB10)">
+      <node ref="P1" pin="B10" pinfunction="RX1-" pintype="bidirectional"/>
+    </net>
+    <net code="97" name="unconnected-(P1-RX2+-PadA11)">
+      <node ref="P1" pin="A11" pinfunction="RX2+" pintype="bidirectional"/>
+    </net>
+    <net code="98" name="unconnected-(P1-RX2--PadA10)">
+      <node ref="P1" pin="A10" pinfunction="RX2-" pintype="bidirectional"/>
+    </net>
+    <net code="99" name="unconnected-(P1-SBU1-PadA8)">
+      <node ref="P1" pin="A8" pinfunction="SBU1" pintype="bidirectional"/>
+    </net>
+    <net code="100" name="unconnected-(P1-SBU2-PadB8)">
+      <node ref="P1" pin="B8" pinfunction="SBU2" pintype="bidirectional"/>
+    </net>
+    <net code="101" name="unconnected-(P1-SHIELD-PadS1)">
+      <node ref="P1" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+    </net>
+    <net code="102" name="unconnected-(P1-TX1+-PadA2)">
+      <node ref="P1" pin="A2" pinfunction="TX1+" pintype="bidirectional"/>
+    </net>
+    <net code="103" name="unconnected-(P1-TX1--PadA3)">
+      <node ref="P1" pin="A3" pinfunction="TX1-" pintype="bidirectional"/>
+    </net>
+    <net code="104" name="unconnected-(P1-TX2+-PadB2)">
+      <node ref="P1" pin="B2" pinfunction="TX2+" pintype="bidirectional"/>
+    </net>
+    <net code="105" name="unconnected-(P1-TX2--PadB3)">
+      <node ref="P1" pin="B3" pinfunction="TX2-" pintype="bidirectional"/>
+    </net>
+    <net code="106" name="unconnected-(P1-VCONN-PadB5)">
+      <node ref="P1" pin="B5" pinfunction="VCONN" pintype="bidirectional"/>
+    </net>
+  </nets>
+</export>

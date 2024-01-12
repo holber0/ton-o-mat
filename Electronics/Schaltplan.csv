@@ -1,0 +1,8 @@
+"null","Sourced","Placed","References","Value","Footprint","Quantity"
+1,"","","R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R12, R13, R14, R15","R","R_0201_0603Metric",15
+2,"","","Q1, Q2, Q3, Q4, Q5, Q6, Q7, Q8, Q9, Q10, Q11, Q12, Q13, Q14, Q15, Q16, Q17, Q18, Q19, Q20, Q21, Q22, Q23, Q24, Q25, Q26, Q27, Q28, Q29, Q30, Q31, Q32, Q33, Q34, Q35, Q36, Q37, Q38, Q39, Q40, Q41, Q42, Q43, Q44, Q45, Q46, Q47, Q48, Q49, Q50, Q51, Q52, Q53, Q54, Q55","2SC1815","TO-92_Inline",55
+3,"","","J51, J52, J53, J54, J55","Conn_01x06_Socket","JST_EH_B6B-EH-A_1x06_P2.50mm_Vertical",5
+4,"","","J57, J58, J59, J60, J61","Conn_01x10_Socket","PinHeader_1x10_P2.54mm_Vertical",5
+5,"","","J2","Conn_01x04_Socket","JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical",1
+6,"","","J3","Conn_01x15_Socket","JST_EH_B15B-EH-A_1x15_P2.50mm_Vertical",1
+7,"","","P1","USB_C_Plug","USB_C_Receptacle_GCT_USB4085",1

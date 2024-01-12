@@ -1,0 +1,46 @@
+{
+    "type": "InteractiveHtmlBom settings",
+    "version": 1,
+    "pcbmetadata": {
+        "title": "Schaltplan",
+        "revision": "",
+        "company": "",
+        "date": "2023-11-07 22:40:26"
+    },
+    "settings": {
+        "canvaslayout": "FB",
+        "bomlayout": "left-right",
+        "bommode": "grouped",
+        "checkboxes": [
+            "Sourced",
+            "Placed"
+        ],
+        "checkboxStoredRefs": {
+            "Sourced": "",
+            "Placed": ""
+        },
+        "darkMode": false,
+        "highlightpin1": "none",
+        "redrawOnDrag": true,
+        "boardRotation": 0,
+        "offsetBackRotation": false,
+        "renderPads": true,
+        "renderReferences": true,
+        "renderValues": true,
+        "renderSilkscreen": true,
+        "renderFabrication": false,
+        "renderDnpOutline": false,
+        "renderTracks": false,
+        "renderZones": false,
+        "columnOrder": [
+            "checkboxes",
+            "References",
+            "Value",
+            "Footprint",
+            "Quantity"
+        ],
+        "hiddenColumns": [],
+        "netColors": {},
+        "markWhenChecked": ""
+    }
+}
